@@ -13,15 +13,60 @@ body{
 }
 .picture{
     height: fit-content;
-    width: 75%;
+    width: 100%;
     margin: 1em;
-    display: flex;   
-    flex-flow: wrap;
-    justify-content: left;
-    flex-direction: column;
+}
+.picture img{
+  width: 100%;
+  height: auto;
+}
 
-} 
-table{
+
+.time_line ,#google {
+  text-align: left;
+  font-size: medium;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+  float: left;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+ 
+
+
+}
+
+
+.years{
+  font-weight: bold;
+}
+#more{
+  align-self: left;
+  margin-left: 20px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* table{
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
     width: 75%;
@@ -32,26 +77,9 @@ table{
 
 td , th{
     padding: 4px 8px;
-    border-right: 2px solid #95b3d7;
-    border-bottom: 2px solid mediumslateblue;
     margin: 1em auto;
-    border-collapse: collapse;
-    font-family: Arial, Helvetica, sans-serif;
-    width:fit-content ;
-    font-size: 15px;
-
-}
-.year{
-    width: 50px;
-    border-right: 1px solid #95b3d7;
-    font-weight: bold;
-
-}
- 
- tr:nth-child(even) td {
-    border-right: 1px solid #95b3d7;
-
-}
+    /* font-family: Arial, Helvetica, sans-serif; */
+   
 /* tr{
     background-color: lightcoral;
 } */
